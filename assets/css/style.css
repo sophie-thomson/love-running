@@ -110,7 +110,33 @@ main {
 }
 
 #cover-text > h2, #cover-text > h3 {
+    /* Targets particular text that is a direct child of the h2 or h3 headers with id of cover-text */
     color: #ffffff;
+}
+/* Reasons Section */
+#reasons {
+    width: 90%;
+    margin: auto 20px
+}
+
+#reasons > h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;    
+}
+
+#benefits-physical div, #benefits-mental div {
+    line-height: 20px;
+    margin-bottom: 20px
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px;
+}
+
+#benefits p {
+    padding: 0 20px;
 }
 
 /* Footer */
