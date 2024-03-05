@@ -323,12 +323,12 @@ main {
         align-self: flex-end; 
     }
 
-    /* Gallery */
+    /* Gallery Responsive Media Query */
     #photos {
         column-count: 3;
     }
 
-    /* Signup Form */
+    /* Signup Form Responsive Media Query */
 
     #signup {
         background-position: center;
